@@ -8,7 +8,7 @@ public class MyFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        //FIXME
+        //TODO
         System.out.println(">> do my filter...");
 
         filterChain.doFilter(servletRequest, servletResponse);
