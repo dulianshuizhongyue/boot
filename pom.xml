@@ -104,6 +104,13 @@
           <version>1.2</version>
       </dependency>
 
+      <!-- Lombok - Make Java look less redundant -->
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <scope>provided</scope>
+      </dependency>
+
   </dependencies>
 
   <build>

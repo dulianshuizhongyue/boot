@@ -1,0 +1,88 @@
+tools:
+jersey
+maven
+springboot
+mybatis
+swagger
+
+others:
+url: REST
+connect pool: druid
+API的身份认证: OAuth2.0
+
+element:
+log
+filter
+token, JWT(json web token)
+test, spring-test
+dynamic sql
+@Async
+lambda
+java stream
+@Builder
+selectKey
+lombok
+
+extends:
+activiti
+Quora、Phabricator
+
+
+Elemet:
+Vue
+Nginx
+
+
+一、java:
+
+1. ResponseEntity 
+new ResponseEntity (ResultModel.ok (model), HttpStatus.OK);
+@JsonIgnore
+ResponseEntity 相当于把 ResponseBody 和 HttpStatus合并到一起返回
+
+
+2. ResultModel
+封装: ResultModel
+private T data;
+private CodeMessage<C> message;
+private boolean isSuccess;
+
+
+3. Assert.notNull(var, "msg")
+断言, 判断变量是否为null
+
+
+
+二、html:
+marquee result: 
+<marquee width="600" scrollamount="12">content</marquee>
+
+
+三、Project
+RESTFul 登录权限的验证: 
+http://www.scienjus.com/restful-token-authorization/
+https://github.com/ScienJus/spring-restful-authorization.git
+
+
+Vue2 + Element UI: 
+https://www.jianshu.com/p/d87d7140944e
+https://www.cnblogs.com/guokun/p/6068652.html
+
+
+四、概念
+函数式编程
+例如: js中 slice() 为"纯"函数式编程， splice() 为 不"纯"函数式编程
+slice()每次返回的值都是固定不变的, slice()每次返回的都是新生成的数组，
+splice()返回的值不是固定的，因为splice()会改变原数组的值
+
+HTTP 协议，
+
+链式编程
+
+
+五、教程
+1.vue.js 入门与提高         http://xc.hubwiz.com/course/592ee9b2b343f27b0ae1ba99?affid=zhihu20180311
+2.vuex 2 入门与提高       http://xc.hubwiz.com/course/597d463fff52d0da7e3e397a?affid=zhihu20180311
+3.vue-router 入门与提高  http://xc.hubwiz.com/course/5983d3aeff52d0da7e3e3d50?affid=zhihu20180311
+4.vue.js 工程化实践         http://xc.hubwiz.com/course/598bad66c7fd1d49453979c9?affid=zhihu20180311
+
