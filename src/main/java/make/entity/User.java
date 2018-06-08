@@ -1,7 +1,9 @@
 package make.entity;
 
 import lombok.*;
+import lombok.experimental.Accessors;
 
+@Accessors(chain = true)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
